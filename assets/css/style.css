@@ -183,11 +183,9 @@ h6 {
   margin-bottom: 8px;
   transition: 0.3s;
   font-size: 15px;
-  border:2px solid black;
   border-radius: 50px;
-  background: #ffffff;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
-  /* background: #f2f3f5; */
+  background: #fdf9f9;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
   height: 56px;
   width: 100%;
   overflow: hidden;
@@ -1003,7 +1001,10 @@ section {
 
 .contact .js-email-form {
   width: 100%;
-  background: rgb(255, 255, 255);
+  padding: 2vw 4vw;
+  background: #ffffff;
+   box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+   border-radius: 10px;
 }
 
 .contact .js-email-form .form-group {
