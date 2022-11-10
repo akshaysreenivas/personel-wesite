@@ -6,7 +6,11 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>Akshay</title>
-
+  <!-- ajax js -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- jquery -->
+<script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
   <!-- Favicons -->
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
@@ -549,20 +553,20 @@
 
           <div class="col-lg-8 mt-5 mt-lg-0">
 
-            <form action="forms/form.js" method="post" role="form" class="js-email-form">
+            <form id="submit-form"   class="js-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" >
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                  <input  class="form-control" name="emailAddress" id="email" placeholder="Your Email" >
                 </div>
               </div>
               <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" >
               </div>
               <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                <textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
@@ -594,7 +598,7 @@
         <a href="https://www.linkedin.com/in/akshay-sreenivas-202695212/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
       </div>
       <div class="copyright">
-        &copy; Copyright <strong><span>Akshay</span></strong>.
+        &copy; Copyright <strong><span></span></strong>.
       </div>
      
     </div>
@@ -617,6 +621,8 @@
   <!--  Main JS File -->
   <script src="assets/js/main.js"></script>
   <script src="forms/form.js"></script>
+
+  
 
 </body>
 
